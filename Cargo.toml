@@ -1,0 +1,7 @@
+[workspace]
+members = ["octopus-cli", "octopus-common", "octopus-web"]
+
+[workspace.dependencies]
+tokio = { version = "1.28.2", features = ["full"] }
+serde = { version = "1.0.163", features = ["derive"] }
+warp = "0.3.5"
